@@ -41,7 +41,7 @@ namespace ContosoUniversity.Controllers
         public async Task<string> Prova( string name)
         {
             
-             await _unitOfWork.CreateMyTempTableAsync(true);
+            /* await _unitOfWork.CreateMyTempTableAsync(true);
             List<int> listIds = new List<int>();
             listIds.Add(1);
             listIds.Add(2);
@@ -59,7 +59,7 @@ namespace ContosoUniversity.Controllers
             // Get the elapsed time as a TimeSpan value.
             TimeSpan ts = stopWatch.Elapsed;
             //   var x = await _unitOfWork.DeleteMyTempTableAsync();
-             var tempTable = _unitOfWork.GetMyTempTable();
+             var tempTable = _unitOfWork.GetMyTempTable();*/
 
             return $"id : {0}\t name : {name}BELFIOREmICHELE";
         }
